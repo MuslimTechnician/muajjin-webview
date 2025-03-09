@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Muajjin" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Ensure app starts below the status bar -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- Optional: Set status bar color to transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Ensures window draws system bar backgrounds (status bar) -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>
